@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Webpage</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="js/script.js"></script>
+    <!--    <script src="js/angular.min.js"></script>-->
+    <!--    <script src="js/angular-route.min.js"></script>-->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="masthead">
+            <h3 class="text-muted left">EXAMPLE</h3>
+            <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav text-md-center nav-justified w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PLAY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#/lookup">LOOK UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIST</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">About</a>
+                                <a class="dropdown-item" href="#">Contact Us</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-md btn-primary btn-dark float-right " href="#/login" role="button">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-md btn-success" href="#/registration" role="button">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div ng-view></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
